@@ -8,6 +8,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        pulse3: {
+            '50%': {opacity: 0.1}
+        },
+        pulse2: {
+          '50%': {opacity: 0.05}
+        },
+        pulse1: {
+          '50%': {opacity: 0.03}
+        },
+        wave: {
+          '0%, 100%': {transform: 'rotate(-15deg)'},
+          '50%': {transform: 'rotate(55deg)'},
+        }
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
