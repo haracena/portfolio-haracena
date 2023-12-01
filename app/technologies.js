@@ -75,6 +75,11 @@ export const technologies = [
     colorIcon: "/assets/icons/supabase.svg",
   },
   {
+    name: "Mongo DB",
+    grayIcon: "",
+    colorIcon: "/assets/icons/mongodb.svg",
+  },
+  {
     name: "Figma",
     grayIcon: "",
     colorIcon: "/assets/icons/figma.svg",

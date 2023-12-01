@@ -50,8 +50,10 @@ export const experience = [
       "next js",
       "supabase",
       "css",
+      "figma"
     ]),
     projectImage: "/assets/images/futurenftdrops.png",
+    projectColor: "#6107FA"
   },
   {
     id: 99,
@@ -63,6 +65,7 @@ export const experience = [
     ],
     techStack: findManyTechsByIdArray(["react js", "next js", "css"]),
     projectImage: "/assets/images/abastible.png",
+    projectColor: "#EA6402"
   },
 
   {
@@ -79,8 +82,10 @@ export const experience = [
       "next js",
       "meteor js",
       "css",
+      "figma"
     ]),
     projectImage: "/assets/images/miexamen.png",
+    projectColor: "#1242C4"
   },
   {
     id: 9,
@@ -90,8 +95,9 @@ export const experience = [
     description: [
       "Desarrollo y despliegue de aplicación móvil “Ciclo Cósmico” en Google Playstore, desarrollé la app con Ionic Framework y Angular. Configuré un VPS en Digital Ocean y desarrollé un API REST con Nodejs, logrando una comunicación entre app y servidor mediante peticiones HTTP.",
     ],
-    techStack: findManyTechsByIdArray(["ionic", "angular", "css", "node js"]),
+    techStack: findManyTechsByIdArray(["ionic", "angular", "css", "node js", "mongo db"]),
     projectImage: "/assets/images/ciclocosmico.png",
+    projectColor: "#FFFF"
   },
   {
     id: 10,

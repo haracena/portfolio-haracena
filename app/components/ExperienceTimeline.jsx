@@ -13,6 +13,7 @@ export default function ExperienceTimeline() {
           description={item.description}
           techStack={item.techStack}
           projectImage={item?.projectImage}
+          projectColor={item?.projectColor}
           key={item.id}
         />
       ))}

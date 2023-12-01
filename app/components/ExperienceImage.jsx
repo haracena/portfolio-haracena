@@ -1,8 +1,24 @@
+// "use client"
+// import { useState } from "react";
 import Image from "next/image";
 
-export default function ExperienceImage({ imageUrl }) {
+export default function ExperienceImage({ imageUrl, color }) {
+  // const [isHovering, setIsHovering] = useState(false);
+
+  // const handleMouseEnter = () => {
+  //   setIsHovering(true);
+  // };
+
+  // const handleMouseLeave = () => {
+  //   setIsHovering(false);
+  // };
+
   return (
-    <div className="w-[300px] h-[150px] bg-[#1F1F1F] rounded-lg relative overflow-hidden cursor-pointer group border border-[#282828] hover:border-gray-700 hover:-translate-y-[2px] transition-all duration-300">
+    <div 
+      // onMouseEnter={handleMouseEnter}
+      // onMouseLeave={handleMouseLeave} 
+      // style={{borderColor: isHovering ? color: null}} 
+      className="w-[300px] h-[150px] bg-[#1F1F1F] rounded-lg relative overflow-hidden cursor-pointer group border border-[#282828] hover:-translate-y-[2px] transition-all duration-300">
       <Image
         src={imageUrl}
         width={300}

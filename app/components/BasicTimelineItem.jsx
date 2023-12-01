@@ -21,7 +21,7 @@ export default function BasicTimeLineItem({
         <a
           href={file}
           download
-          class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700 duration-300"
+          class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-[#171717] text-gray-400 border border-[#272727] hover:border-[#1C1C1C] hover:text-white hover:bg-[#141414] focus:ring-gray-700 transition-all duration-300"
         >
           <svg
             class="w-3.5 h-3.5 me-2.5"

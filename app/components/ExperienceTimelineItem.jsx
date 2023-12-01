@@ -9,6 +9,7 @@ export default function ExperienceTimelineItem({
   description,
   techStack,
   projectImage,
+  projectColor
 }) {
   return (
     <li className="mb-10 ms-6">
@@ -59,7 +60,7 @@ export default function ExperienceTimelineItem({
 
       {projectImage && (
         <div className="my-4">
-          <ExperienceImage imageUrl={projectImage} />
+          <ExperienceImage imageUrl={projectImage} color={projectColor} />
         </div>
       )}
     </li>
