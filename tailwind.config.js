@@ -10,18 +10,18 @@ module.exports = {
     extend: {
       keyframes: {
         pulse3: {
-            '50%': {opacity: 0.1}
+          "50%": { opacity: 0.15 },
         },
         pulse2: {
-          '50%': {opacity: 0.05}
+          "50%": { opacity: 0.1 },
         },
         pulse1: {
-          '50%': {opacity: 0.03}
+          "50%": { opacity: 0.05 },
         },
         wave: {
-          '0%, 100%': {transform: 'rotate(-15deg)'},
-          '50%': {transform: 'rotate(55deg)'},
-        }
+          "0%, 100%": { transform: "rotate(-15deg)" },
+          "50%": { transform: "rotate(55deg)" },
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

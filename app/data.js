@@ -43,17 +43,19 @@ export const experience = [
     endDate: "Junio 2023",
     company: "Future NFT Drops",
     description: [
-      "Creador autónomo de futurenftdrops.com. Cree la web app desde el diseño hecho en Figma hasta el desarrollo del mismo utilizando React con Next js (Con SSR para SEO). La mayor parte del desarrollo es Front End con las tecnologías mencionadas anteriormente y SCSS, en cuanto al Backend, implementé Supabase como BaaS.",
+      "Creador autónomo de futurenftdrops.com, la web consiste en listar próximas colecciones de NFT, los usuarios pueden ver la lista de colecciones y trambíen crear una cuenta para subir sus propias colecciones.",
+      "Cree la web app desde el diseño hecho en Figma hasta el desarrollo del mismo utilizando React con Next js versión 13 (Con SSR para SEO). Los estilos de la web fueron creados con SCSS, en cuanto al Backend, implementé Supabase como BaaS, conectado mediante peticiones HTTP usando API Route Handlers de Next JS.",
     ],
     techStack: findManyTechsByIdArray([
       "react js",
       "next js",
       "supabase",
       "css",
-      "figma"
+      "figma",
     ]),
     projectImage: "/assets/images/futurenftdrops.png",
-    projectColor: "#6107FA"
+    projectUrl: "https://www.futurenftdrops.com/",
+    projectColor: "#6107FA",
   },
   {
     id: 99,
@@ -65,7 +67,8 @@ export const experience = [
     ],
     techStack: findManyTechsByIdArray(["react js", "next js", "css"]),
     projectImage: "/assets/images/abastible.png",
-    projectColor: "#EA6402"
+    projectUrl: "https://abastible-invierno.vercel.app/",
+    projectColor: "#EA6402",
   },
 
   {
@@ -74,18 +77,20 @@ export const experience = [
     endDate: "Enero 2023",
     company: "Mi Examen",
     description: [
-      "Desarrollo front end para aplicaciones internas de MiExamen. Trabajé con React js bajo el framework Meteor js, para crear los diseños de las interfaces utilicé Figma. Adicionalmente mejoré el front de MiExamen, adaptando los estilos a las nuevas líneas de diseño de la startup.",
-      "También participé en la mejora del proceso de agendamiento de exámenes PCR, logrando un mejor UX y disminuyendo las preguntas de los usuarios sobre cómo agendar sus exámenes por la antigua plataforma.",
+      "Participé en el desarrollo de distintas aplicaciones MiExamen. Desarrollé el front end de Himalia, aplicación web para la gestión de horas de pacientes en laboratorios clínicos. También trabajé en el front end de la landing page de Mi Examen y su web app para pedir PCR a domicilio en la región de Santiago.",
+      "Aporté con mejoras en el front end de MiExamen, adaptando los estilos a las nuevas líneas de diseño de la startup. Mejoramos el proceso de agendamiento de exámenes PCR, logrando un mejor UX y disminuyendo las preguntas de los usuarios sobre cómo agendar sus exámenes por la antigua plataforma.",
+      "Trabajé con React js bajo el framework Meteor js para la app web y Next js para el landing page, para crear los diseños de las interfaces utilicé Figma.",
     ],
     techStack: findManyTechsByIdArray([
       "react js",
       "next js",
       "meteor js",
       "css",
-      "figma"
+      "figma",
     ]),
     projectImage: "/assets/images/miexamen.png",
-    projectColor: "#1242C4"
+    projectUrl: "https://miexamen-landing.vercel.app/",
+    projectColor: "#1242C4",
   },
   {
     id: 9,
@@ -93,11 +98,20 @@ export const experience = [
     endDate: "Julio 2019",
     company: "Desarrollador independiente",
     description: [
-      "Desarrollo y despliegue de aplicación móvil “Ciclo Cósmico” en Google Playstore, desarrollé la app con Ionic Framework y Angular. Configuré un VPS en Digital Ocean y desarrollé un API REST con Nodejs, logrando una comunicación entre app y servidor mediante peticiones HTTP.",
+      "Desarrollo y despliegue de aplicación móvil “Ciclo Cósmico” en Google Playstore. La app consiste en mostrar horóscopos diarios, compatibilidad de signos zodiacales, entre otras funciones.",
+      "Programé la app con Ionic Framework y Angular. Configuré un VPS en Digital Ocean y desarrollé un API REST con Node js y Mongo DB, logrando una comunicación entre app y servidor mediante peticiones HTTP.",
     ],
-    techStack: findManyTechsByIdArray(["ionic", "angular", "css", "node js", "mongo db"]),
+    techStack: findManyTechsByIdArray([
+      "ionic",
+      "angular",
+      "css",
+      "node js",
+      "mongo db",
+    ]),
     projectImage: "/assets/images/ciclocosmico.png",
-    projectColor: "#FFFF"
+    projectUrl:
+      "https://play.google.com/store/apps/details?id=io.ionic.ciclocosmico&hl=es",
+    projectColor: "#FFFF",
   },
   {
     id: 10,
