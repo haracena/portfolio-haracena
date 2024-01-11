@@ -10,14 +10,14 @@ import { CiLocationOn } from "react-icons/ci";
 export default function Home() {
   return (
     <>
-      <div className="relative overflow-hidden max-w-5xl my-6 mx-auto px-24 py-8 border border-[#151515] rounded-2xl bg-[#0E0E0E] bg-opacity-80 backdrop-blur-sm shadow">
-        <div className="py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-[#151515] to-[#0E0E0E] text-sm text-gray-50 shadow">
+      <div className="relative overflow-hidden max-w-5xl my-6 mx-auto p-4 sm:p-12 lg:px-24 py-8 sm:border sm:border-[#151515] sm:rounded-2xl sm:bg-[#0E0E0E] sm:bg-opacity-80 sm:backdrop-blur-sm sm:shadow">
+        <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-[#151515] to-[#0E0E0E] text-sm text-gray-50 shadow">
           Open to work
         </div>
-        <header className="grid grid-cols-[auto_1fr] gap-12 items-center">
+        <header className="grid grid-cols-1 justify-items-center md:grid-cols-[auto_1fr] md:gap-12 md:items-center">
           <HeaderImage />
-          <div className="flex flex-col gap-2">
-            <h1 className="pb-1 text-5xl text-transparent bg-clip-text font-medium bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
+          <div className="flex flex-col gap-2 text-center md:text-start">
+            <h1 className="pb-1 text-4xl sm:text-5xl text-transparent bg-clip-text font-medium bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
               Hugo Aracena
             </h1>
             <p className="text-gray-400">
@@ -34,7 +34,7 @@ export default function Home() {
             <p className="text-gray-400">
               La Serena, Chile <CiLocationOn className="inline-block" />
             </p>
-            <div className="mt-4 flex gap-2">
+            <div className="mt-4 flex justify-center md:justify-start gap-2">
               <a
                 href={"https://github.com/haracena"}
                 target="_blank"
@@ -64,10 +64,10 @@ export default function Home() {
             <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
               Idiomas
             </h2>
-            <div className="flex justify-start gap-6">
+            <div className="flex justify-start gap-6 flex-wrap">
               <div className="flex items-center gap-4 p-6 border border-[#151515] rounded-2xl group hover:bg-gradient-to-b from-[#0E0E0E] to-[#121212]">
                 <Image
-                  className="brightness-75 saturate-0 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-300"
+                  className="brightness-75 saturate-50 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-300"
                   src={"/assets/icons/chile.svg"}
                   width={32}
                   height={32}
@@ -77,7 +77,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-4 p-6 border border-[#151515] rounded-2xl group hover:bg-gradient-to-b from-[#0E0E0E] to-[#121212]">
                 <Image
-                  className="brightness-75 saturate-0 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-300"
+                  className="brightness-75 saturate-50 group-hover:brightness-100 group-hover:saturate-100 transition-all duration-300"
                   src={"/assets/icons/usa.svg"}
                   width={32}
                   height={32}

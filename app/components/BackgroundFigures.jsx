@@ -24,7 +24,7 @@ export default function BackgroundFigures() {
     };
   }, []);
   return (
-    <div className="fixed flex justify-center w-[1024px] h-[50vh] max-w-5xl left-1/2 -translate-x-1/2 top-32 -z-10">
+    <div className="hidden fixed md:flex justify-center w-[1024px] h-[50vh] max-w-5xl left-1/2 -translate-x-1/2 top-32 -z-10">
       <Image
         className="absolute -top-10 -left-20 -z-10 opacity-50"
         src={"/assets/images/torus.png"}

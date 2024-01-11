@@ -32,7 +32,7 @@ export default function ExperienceTimelineItem({
           Latest
         </span> */}
       </h3>
-      <time className="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
+      <time className="block mb-2 text-sm font-normal leading-none text-gray-300">
         {`${startDate} - ${endDate}`}
       </time>
 
@@ -45,9 +45,12 @@ export default function ExperienceTimelineItem({
         </p>
       ))}
 
-      <div className="flex gap-4">
+      <div className="flex gap-3 flex-wrap">
         {techStack.map((tech) => (
-          <div className="flex gap-2 items-center" key={tech.name}>
+          <div
+            className="py-1 px-3 bg-neutral-900 border border-neutral-800 flex gap-2 items-center rounded-full"
+            key={tech.name}
+          >
             <Image
               src={tech.colorIcon}
               height={20}

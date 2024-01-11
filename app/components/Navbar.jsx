@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="max-w-7xl mx-auto p-8 flex items-center">
+    <nav className="max-w-7xl mx-auto p-8 hidden lg:flex items-center">
       <div className="basis-full">
         <Image
           src={"/assets/images/logoha.png"}
