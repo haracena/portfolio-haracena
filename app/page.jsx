@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <div className="relative overflow-hidden max-w-5xl my-6 mx-auto p-4 sm:p-12 lg:px-24 py-8 sm:border sm:border-[#151515] sm:rounded-2xl sm:bg-[#0E0E0E] sm:bg-opacity-80 sm:backdrop-blur-sm sm:shadow">
-        <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-[#151515] to-[#0E0E0E] text-sm text-gray-50 shadow">
+        <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-indigo-800 to-indigo-700 text-sm text-gray-50 shadow">
           Open to work
         </div>
         <header className="grid grid-cols-1 justify-items-center md:grid-cols-[auto_1fr] md:gap-12 md:items-center">
