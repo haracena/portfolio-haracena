@@ -46,7 +46,7 @@ export default function Home() {
               <a
                 href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
                 target="_blank"
-                class="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-[#171717] text-gray-400 border border-[#272727] hover:border-[#1C1C1C] hover:text-white hover:bg-[#141414] focus:ring-gray-700 transition-all duration-300"
+                className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-[#171717] text-gray-400 border border-[#272727] hover:border-[#1C1C1C] hover:text-white hover:bg-[#141414] focus:ring-gray-700 transition-all duration-300"
               >
                 <FaLinkedin className="text-lg" />
                 Linkedin

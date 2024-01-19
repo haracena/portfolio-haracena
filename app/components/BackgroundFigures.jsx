@@ -26,8 +26,8 @@ export default function BackgroundFigures() {
   return (
     <div className="hidden fixed md:flex justify-center w-[1024px] h-[50vh] max-w-5xl left-1/2 -translate-x-1/2 top-32 -z-10">
       <Image
-        className="absolute -top-10 -left-20 -z-10 opacity-50"
-        src={"/assets/images/torus.png"}
+        className="absolute -top-10 -left-20 -z-10 opacity-40"
+        src={"/assets/images/torus-color.png"}
         width={150}
         height={170}
         alt="figure"
@@ -36,8 +36,8 @@ export default function BackgroundFigures() {
         }}
       />
       <Image
-        className="absolute bottom-0 -left-20 -z-10 opacity-50"
-        src={"/assets/images/cubeleft.png"}
+        className="absolute bottom-0 -left-20 -z-10 opacity-40"
+        src={"/assets/images/cubeleft-color.png"}
         width={150}
         height={136}
         alt="figure"
@@ -46,8 +46,8 @@ export default function BackgroundFigures() {
         }}
       />
       <Image
-        className="absolute -top-8 -right-20 -z-10 opacity-50"
-        src={"/assets/images/cubreright.png"}
+        className="absolute -top-8 -right-20 -z-10 opacity-40"
+        src={"/assets/images/cuberight-color.png"}
         width={150}
         height={132}
         alt="figure"
@@ -56,8 +56,8 @@ export default function BackgroundFigures() {
         }}
       />
       <Image
-        className="absolute bottom-0 -right-20 -z-10 opacity-50"
-        src={"/assets/images/cheese.png"}
+        className="absolute bottom-0 -right-20 -z-10 opacity-40"
+        src={"/assets/images/cheese-color.png"}
         width={150}
         height={134}
         alt="figure"

@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         {children}
         <BackgroundFigures />
         {/* <div className="w-16 h-16 fixed bottom-8 right-8 rounded-full bg-gray-800"></div> */}
+        <div className="absolute top-0 left-0 z-[-20] h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(12,12,12,0))]"></div>
       </body>
     </html>
   );

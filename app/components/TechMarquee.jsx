@@ -10,15 +10,15 @@ export default function TechMarquee() {
       gradientWidth={40}
     >
       {technologies
-        .filter((tech) => tech.grayIcon)
+        .filter((tech) => tech.colorIcon)
         .map((tech) => (
           <Image
             width={48}
             height={48}
-            src={tech.grayIcon}
+            src={tech.colorIcon}
             alt={`${tech.name} icon`}
             key={tech.name}
-            className="mx-6"
+            className="mx-6 saturate-[0.75]"
           />
         ))}
     </Marquee>

@@ -18,39 +18,39 @@ export default function Navbar() {
       </div>
       <ul className="flex justify-center gap-8 basis-full">
         <ScrollLink to="languages" smooth offset={-40} duration={300}>
-          <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
+          <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
             Idiomas
           </li>
         </ScrollLink>
         <ScrollLink to="education" smooth offset={-40} duration={300}>
-          <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
+          <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
             Educación
           </li>
         </ScrollLink>
 
         <ScrollLink to="experience" smooth offset={-40} duration={300}>
-          <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
+          <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
             Experiencia
           </li>
         </ScrollLink>
       </ul>
       <ul className="flex items-center gap-6 text-2xl text-[#717171] basis-full justify-end">
-        <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+        <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link href="https://wa.me/56961519811" target="_blank">
             <FaWhatsapp className="" width={24} height={24} />
           </Link>
         </li>
-        <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+        <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link href={"mailto: haracena.dev@gmail.com"}>
             <ImMail4 className="" width={24} height={24} />
           </Link>
         </li>
-        <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+        <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link href={"https://github.com/haracena"} target="_blank">
             <FaGithub className="" width={24} height={24} />
           </Link>
         </li>
-        <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+        <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link
             href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
             target="_blank"

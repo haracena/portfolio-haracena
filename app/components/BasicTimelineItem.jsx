@@ -8,12 +8,12 @@ export default function BasicTimeLineItem({
   return (
     <li className="mb-10 ms-4">
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-      <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-        {`${startDate} - ${endDate}`}
-      </time>
       <h3 className="text-lg font-semibold text-gray-50 dark:text-white">
         {title}
       </h3>
+      <time className="mb-1 text-sm font-normal leading-none text-indigo-400">
+        {`${startDate} - ${endDate}`}
+      </time>
       <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
         {description}
       </p>
@@ -21,10 +21,10 @@ export default function BasicTimeLineItem({
         <a
           href={file}
           download
-          class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-[#171717] text-gray-400 border border-[#272727] hover:border-[#1C1C1C] hover:text-white hover:bg-[#141414] focus:ring-gray-700 transition-all duration-300"
+          className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg focus:z-10 focus:ring-4 focus:outline-none focus:text-blue-700 bg-[#171717] text-gray-400 border border-[#272727] hover:border-[#1C1C1C] hover:text-white hover:bg-[#141414] focus:ring-gray-700 transition-all duration-300"
         >
           <svg
-            class="w-3.5 h-3.5 me-2.5"
+            className="w-3.5 h-3.5 me-2.5"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
