@@ -8,6 +8,7 @@ export default function TechMarquee() {
       gradient
       gradientColor="#0E0E0E"
       gradientWidth={40}
+      style={{zIndex: '-1'}}
     >
       {technologies
         .filter((tech) => tech.colorIcon)
