@@ -34,7 +34,7 @@ export default function Navbar() {
           </li>
         </ScrollLink>
       </ul>
-      <ul className="flex items-center gap-6 text-2xl text-[#717171] basis-full justify-end">
+      <ul className="flex items-center gap-6 text-2xl text-gray-300 basis-full justify-end">
         <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link href="https://wa.me/56961519811" target="_blank">
             <FaWhatsapp className="" width={24} height={24} />

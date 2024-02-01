@@ -11,12 +11,12 @@ export default function TechMarquee() {
       style={{zIndex: '-1'}}
     >
       {technologies
-        .filter((tech) => tech.colorIcon)
+        .filter((tech) => tech.grayIcon)
         .map((tech) => (
           <Image
             width={48}
             height={48}
-            src={tech.colorIcon}
+            src={tech.grayIcon}
             alt={`${tech.name} icon`}
             key={tech.name}
             className="mx-6 saturate-[0.75]"
