@@ -9,6 +9,7 @@ export default function HeaderImage() {
         height={180}
         alt="profile image"
         className="rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40"
+        priority
       />
       <Image
         src={"/assets/images/profile-color.png"}
