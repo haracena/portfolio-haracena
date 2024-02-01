@@ -14,7 +14,7 @@ export default function ExperienceImage({ imageUrl, color, projectUrl }) {
           width={300}
           height={150}
           alt="Abastible"
-          className="absolute top-3 left-0 rounded-[2px] saturate-[0.25] brightness-90 object-cover transition-all duration-300 group-hover:saturate-100 group-hover:brightness-100"
+          className="absolute top-3 left-0 rounded-[2px] md:saturate-[0.25] brightness-90 object-cover transition-all duration-300 group-hover:saturate-100 group-hover:brightness-100"
         />
         <div className="w-[3px] h-[3px] rounded-full bg-[#333333] absolute top-[4px] left-2 group-hover:bg-[#FF5E57] group-hover:opacity-60 transition-all duration-300"></div>
         <div className="w-[3px] h-[3px] rounded-full bg-[#333333] absolute top-[4px] left-[14px] group-hover:bg-[#FEBB2E] group-hover:opacity-60 transition-all duration-300"></div>
