@@ -6,30 +6,37 @@ import TechMarquee from "./components/TechMarquee";
 import HeaderImage from "./components/HeaderImage";
 import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
+import AnimatedBadge from "./components/AnimatedBadge";
 
 export default function Home() {
   return (
     <>
       <div className="relative overflow-hidden max-w-5xl my-6 mx-auto p-4 sm:p-12 lg:px-24 py-8 sm:border sm:border-[#151515] sm:rounded-2xl sm:bg-[#0E0E0E] sm:bg-opacity-80 sm:backdrop-blur-sm sm:shadow">
-        <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-indigo-800 to-indigo-700 text-sm text-gray-50 shadow">
+        {/* <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-indigo-800 to-indigo-700 text-sm text-gray-50 shadow">
           Open to work
-        </div>
+        </div> */}
         <header className="grid grid-cols-1 justify-items-center md:grid-cols-[auto_1fr] md:gap-12 md:items-center">
           <HeaderImage />
           <div className="flex flex-col gap-2 text-center md:text-start">
-            <h1 className="pb-1 text-4xl sm:text-5xl text-transparent bg-clip-text font-medium bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
+            <span className="mt-2 flex md:hidden self-center">
+              <AnimatedBadge />
+            </span>
+            <h1 className="flex justify-center md:justify-start items-center gap-4 pb-1 text-4xl sm:text-4xl text-transparent bg-clip-text font-medium bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
               Hugo Aracena
+              <span className="mt-1 hidden lg:flex self-center">
+                <AnimatedBadge />
+              </span>
             </h1>
-            <p className="text-gray-400">
+            <p className="text-gray-400" style={{ textWrap: "balance" }}>
               Ingeniero en informática, desarrollador web con conocimiento y
-              experiencia en Front End. Apasionado por la tecnología{" "}
-              <Image
+              experiencia en Front End. Apasionado por la tecnología.{" "}
+              {/* <Image
                 src={"/assets/icons/react-gray.svg"}
                 width={18}
                 height={18}
                 alt="react js icon"
                 className="inline-block animate-[spin_3s_linear_infinite]"
-              />
+              /> */}
             </p>
             <p className="text-gray-400">
               La Serena, Chile <CiLocationOn className="inline-block" />
@@ -52,6 +59,9 @@ export default function Home() {
                 Linkedin
               </a>
             </div>
+            {/* <span className="mt-2 flex lg:hidden self-center">
+              <AnimatedBadge />
+            </span> */}
           </div>
         </header>
 
@@ -102,6 +112,12 @@ export default function Home() {
             <ExperienceTimeline />
           </section>
         </main>
+        <p className="text-center text-sm">
+          <span className="mr-1 animate-[wobble_1.5s_linear_infinite] inline-block text-gray-300">
+            👋🏼
+          </span>
+          Saludos, hablamos pronto!
+        </p>
       </div>
     </>
   );
