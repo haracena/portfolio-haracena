@@ -31,8 +31,8 @@ export default function MobileNavbar() {
       {/* Drawer */}
       <div
         className={clsx(
-          "w-screen h-screen bg-neutral-900 bg-opacity-75 fixed top-0",
-          isOpen ? "right-0" : "-right-full"
+          "w-screen h-screen bg-neutral-900 bg-opacity-75 fixed top-0 left-0",
+          isOpen ? "block" : "hidden"
         )}
         onClick={() => {
           setIsOpen((prev) => !prev);
@@ -40,8 +40,8 @@ export default function MobileNavbar() {
       ></div>
       <aside
         className={clsx(
-          "absolute top-0 p-8 w-[240px] bg-[#161616] h-screen overflow-hidden transition-all duration-300",
-          isOpen ? "right-0" : "-right-full"
+          "absolute top-0 right-0 p-8 w-[240px] bg-[#161616] h-screen overflow-hidden transition-all duration-300 ",
+          isOpen ? "" : "translate-x-full"
         )}
       >
         <div className="w-8 h-8 bg-white rounded-full absolute top-0 left-0 blur-3xl"></div>
