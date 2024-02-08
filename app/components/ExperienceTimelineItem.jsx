@@ -40,6 +40,7 @@ export default function ExperienceTimelineItem({
         <p
           className="mb-4 text-base font-normal text-gray-400 dark:text-gray-400"
           key={paragraph}
+          style={{ textWrap: "pretty" }}
         >
           {paragraph}
         </p>
