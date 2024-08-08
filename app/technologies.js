@@ -15,6 +15,11 @@ export const technologies = [
     colorIcon: "/assets/icons/javascript.svg",
   },
   {
+    name: "Typescript",
+    grayIcon: "/assets/icons/typescript-gray.svg",
+    colorIcon: "/assets/icons/typescript.svg",
+  },
+  {
     name: "React JS",
     grayIcon: "/assets/icons/react-gray.svg",
     colorIcon: "/assets/icons/react.svg",
