@@ -20,7 +20,13 @@ export default function ModalGallery({
       <div className="w-full aspect-video flex justify-center items-center bg-neutral-950 h-screen md:h-min ring-1 ring-black fixed top-0 left-0 inset-0 md:relative">
         <Carousel pauseOnHover>
           {galleryImages.map((url) => (
-            <img key={url} src={url} alt="pantallazo" />
+            <Image
+              width={1910}
+              height={920}
+              key={url}
+              src={url}
+              alt="pantallazo"
+            />
           ))}
         </Carousel>
         <button
