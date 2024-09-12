@@ -28,7 +28,7 @@ export const education = [
 
 export const experience = [
   {
-    id: 1,
+    id: 0,
     startDate: "Marzo 2024",
     endDate: "Junio 2024",
     company: "Lisit",
@@ -38,6 +38,8 @@ export const experience = [
       "El proyecto fue desarrollado desde cero utilizando React.js, Typescript, Tailwind, TanStack Query, TanStack Table, Zustand, entre otras tecnologías.",
     ],
     techStack: findManyTechsByIdArray(["react js", "typescript", "tailwind"]),
+    projectImage: "/assets/images/wip1.webp",
+    galleryImages: ["/assets/images/wip1.webp"],
   },
   {
     id: 1,
@@ -58,16 +60,17 @@ export const experience = [
       "Creador autónomo de futurenftdrops.com, una web dedicada a listar próximas colecciones de NFT. Los usuarios pueden explorar la lista de colecciones y crear una cuenta para subir sus propias colecciones.",
       "Creé la web app desde el diseño en Figma hasta el desarrollo completo, utilizando React con Next.js versión 13 (con SSR para SEO). Los estilos de la web fueron desarrollados con SCSS, y para el backend, implementé Supabase como BaaS, conectado mediante peticiones HTTP usando API Route Handlers de Next.js.",
     ],
-    techStack: findManyTechsByIdArray([
-      "react js",
-      "next js",
-      "supabase",
-      "css",
-      "figma",
-    ]),
+    techStack: findManyTechsByIdArray(["next js", "supabase", "css", "figma"]),
     projectImage: "/assets/images/futurenftdrops.png",
     projectUrl: "https://www.futurenftdrops.com/",
     projectColor: "#6107FA",
+    galleryImages: [
+      "/assets/images/drop1.webp",
+      "/assets/images/drop2.webp",
+      "/assets/images/drop3.webp",
+      "/assets/images/drop4.webp",
+      "/assets/images/drop5.webp",
+    ],
   },
   {
     id: 99,
@@ -77,10 +80,16 @@ export const experience = [
     description: [
       "Desarrollé una landing page para la campaña de invierno de Abastible. Utilicé React.js con el framework Next.js versión 12 y CSS Modules para los estilos. Implementé Google Tag Manager para monitorear la actividad de los usuarios.",
     ],
-    techStack: findManyTechsByIdArray(["react js", "next js", "css"]),
+    techStack: findManyTechsByIdArray(["next js", "css"]),
     projectImage: "/assets/images/abastible.png",
     projectUrl: "https://abastible-invierno.vercel.app/",
     projectColor: "#EA6402",
+    galleryImages: [
+      "/assets/images/abastible1.webp",
+      "/assets/images/abastible2.webp",
+      "/assets/images/abastible3.webp",
+      "/assets/images/abastible4.webp",
+    ],
   },
 
   {
@@ -105,6 +114,11 @@ export const experience = [
     projectImage: "/assets/images/miexamen.png",
     projectUrl: "https://miexamen-landing.vercel.app/",
     projectColor: "#1242C4",
+    galleryImages: [
+      "/assets/images/miexamen1.webp",
+      "/assets/images/miexamen2.webp",
+      "/assets/images/miexamen3.webp",
+    ],
   },
   {
     id: 9,
@@ -126,6 +140,7 @@ export const experience = [
     projectUrl:
       "https://play.google.com/store/apps/details?id=io.ionic.ciclocosmico&hl=es",
     projectColor: "#FFFF",
+    galleryImages: ["/assets/images/ciclo-cosmico1.webp"],
   },
   {
     id: 10,

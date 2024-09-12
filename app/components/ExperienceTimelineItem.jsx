@@ -3,6 +3,7 @@ import TechBadge from "./TechBadge";
 import ExperienceImage from "./ExperienceImage";
 
 export default function ExperienceTimelineItem({
+  id,
   startDate,
   endDate,
   company,
@@ -11,6 +12,8 @@ export default function ExperienceTimelineItem({
   projectImage,
   projectUrl,
   projectColor,
+  setOpenModal,
+  setSelectedItem,
 }) {
   return (
     <li className="mb-10 ms-6">
@@ -66,9 +69,12 @@ export default function ExperienceTimelineItem({
       {projectImage && (
         <div className="my-4">
           <ExperienceImage
+            id={id}
             imageUrl={projectImage}
             projectUrl={projectUrl}
             color={projectColor}
+            setOpenModal={setOpenModal}
+            setSelectedItem={setSelectedItem}
           />
         </div>
       )}
