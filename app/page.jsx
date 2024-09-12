@@ -28,8 +28,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="text-gray-400" style={{ textWrap: "balance" }}>
-              Ingeniero en informática, desarrollador web con conocimiento y
-              experiencia en Front End. Apasionado por la tecnología.{" "}
+              Ingeniero en informática, desarrollador web con experiencia en
+              Front End. Apasionado por la tecnología.{" "}
               {/* <Image
                 src={"/assets/icons/react-gray.svg"}
                 width={18}

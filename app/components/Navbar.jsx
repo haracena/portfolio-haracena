@@ -1,7 +1,9 @@
 "use client";
 import Image from "next/image";
 import { ImMail4 } from "react-icons/im";
-import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
+
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 
@@ -36,10 +38,14 @@ export default function Navbar() {
       </ul>
       <ul className="flex items-center gap-6 text-2xl text-gray-300 basis-full justify-end">
         <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
-          <Link href="https://wa.me/56961519811" target="_blank">
-            <FaWhatsapp className="" width={24} height={24} />
+          <Link
+            href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
+            target="_blank"
+          >
+            <FaLinkedin className="" width={24} height={24} />
           </Link>
         </li>
+
         <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
           <Link href={"mailto: haracena.dev@gmail.com"}>
             <ImMail4 className="" width={24} height={24} />
@@ -51,11 +57,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="hover:text-indigo-500 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
-          <Link
-            href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
-            target="_blank"
-          >
-            <FaLinkedin className="" width={24} height={24} />
+          <Link href="https://wa.me/56961519811" target="_blank">
+            <RiWhatsappFill className="w-7 h-7" />
           </Link>
         </li>
       </ul>

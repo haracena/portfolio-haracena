@@ -8,6 +8,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { ImMail4 } from "react-icons/im";
 import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
 
 export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -110,22 +111,14 @@ export default function MobileNavbar() {
           <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
             <Link
               className="flex gap-2 items-center"
-              href={"mailto: haracena.dev@gmail.com"}
-            >
-              <ImMail4 className="text-lg" />
-              Correo electrónico
-            </Link>
-          </li>
-          <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
-            <Link
-              className="flex gap-2 items-center"
-              href="https://wa.me/56961519811"
+              href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
               target="_blank"
             >
-              <FaWhatsapp className="text-lg" />
-              Whatsapp
+              <FaLinkedin className="text-lg" />
+              Linkedin
             </Link>
           </li>
+
           <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
             <Link
               className="flex gap-2 items-center"
@@ -136,14 +129,24 @@ export default function MobileNavbar() {
               Github
             </Link>
           </li>
+
           <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
             <Link
               className="flex gap-2 items-center"
-              href={"https://www.linkedin.com/in/hugo-aracena-29147818b/"}
+              href="https://wa.me/56961519811"
               target="_blank"
             >
-              <FaLinkedin className="text-lg" />
-              Linkedin
+              <RiWhatsappFill className="text-lg h-5 w-5" />
+              Whatsapp
+            </Link>
+          </li>
+          <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+            <Link
+              className="flex gap-2 items-center"
+              href={"mailto: haracena.dev@gmail.com"}
+            >
+              <ImMail4 className="text-lg" />
+              Correo electrónico
             </Link>
           </li>
         </ul>
