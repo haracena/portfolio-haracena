@@ -20,8 +20,6 @@ export default function ExperienceImage({
   return (
     <div
       onClick={handleClick}
-      href={projectUrl}
-      target="_blank"
       className="w-[300px] h-[150px] inline-block bg-[#1F1F1F] rounded-lg relative overflow-hidden cursor-pointer group border border-[#282828] hover:-translate-y-[2px] transition-all duration-300"
     >
       <Image
