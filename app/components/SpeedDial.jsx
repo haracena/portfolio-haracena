@@ -19,7 +19,7 @@ export default function SpeedDial() {
   return (
     <div
       data-dial-init
-      className="fixed right-4 lg:right-6 bottom-4 lg:bottom-6 group"
+      className="fixed right-4 lg:right-6 bottom-4 lg:bottom-6 group z-50"
     >
       <div
         id="speed-dial-menu-default"
