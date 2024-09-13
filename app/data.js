@@ -100,7 +100,7 @@ export const experience = [
     description: [
       "Participé en el desarrollo de diversas aplicaciones para MiExamen.",
       "Desarrollé el frontend de Himalia, una aplicación web para la gestión de horas de pacientes en laboratorios clínicos.",
-      "También trabajé en el frontend de la landing page de MiExamen y en su web app para solicitar pruebas PCR a domicilio en la región de Santiago.",
+      "También trabajé en el frontend de la landing page de MiExamen y en su web app para solicitar pruebas PCR a domicilio en la región Metropolitana.",
       "Aporté mejoras en el frontend de MiExamen, adaptando los estilos a las nuevas líneas de diseño de la startup y optimizando el proceso de agendamiento de exámenes PCR. Esto resultó en una mejor experiencia de usuario (UX) y una reducción significativa en las consultas de usuarios sobre cómo agendar sus exámenes en la plataforma.",
       "Trabajé con React.js bajo el framework Meteor.js para la app web, y con Next.js para la landing page. Utilicé Figma para crear los diseños de las interfaces.",
     ],
