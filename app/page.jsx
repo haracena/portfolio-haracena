@@ -7,6 +7,8 @@ import HeaderImage from "./components/HeaderImage";
 import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import AnimatedBadge from "./components/AnimatedBadge";
+import { HoverEffect } from "./components/CardHoverEffect";
+import { projects } from "./data";
 
 export default function Home() {
   return (
@@ -110,6 +112,13 @@ export default function Home() {
               Experiencia
             </h2>
             <ExperienceTimeline />
+          </section>
+
+          <section className="my-20" id="proyectos">
+            <h2 className="text-4xl pb-1 mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+              Otros proyectos
+            </h2>
+            <HoverEffect items={projects} />
           </section>
         </main>
         <p className="text-center text-sm">
