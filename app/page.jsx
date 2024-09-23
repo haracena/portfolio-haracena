@@ -72,7 +72,28 @@ export default function Home() {
         </section>
 
         <main>
-          <section className="my-20" id="languages">
+          <section className="my-20" id="experience">
+            <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+              Experiencia
+            </h2>
+            <ExperienceTimeline />
+          </section>
+
+          <section className="my-20" id="proyectos">
+            <h2 className="text-4xl pb-1 mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+              Otros proyectos
+            </h2>
+            <HoverEffect items={projects} />
+          </section>
+
+          <section className="my-20" id="education">
+            <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+              Educación
+            </h2>
+            <EducationTimeLine />
+          </section>
+
+          <section className="mt-20" id="languages">
             <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
               Idiomas
             </h2>
@@ -99,34 +120,14 @@ export default function Home() {
               </div>
             </div>
           </section>
-
-          <section className="my-20" id="education">
-            <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
-              Educación
-            </h2>
-            <EducationTimeLine />
-          </section>
-
-          <section className="my-20" id="experience">
-            <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
-              Experiencia
-            </h2>
-            <ExperienceTimeline />
-          </section>
-
-          <section className="my-20" id="proyectos">
-            <h2 className="text-4xl pb-1 mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
-              Otros proyectos
-            </h2>
-            <HoverEffect items={projects} />
-          </section>
         </main>
-        <p className="text-center text-sm">
+
+        {/* <p className="text-center text-sm">
           <span className="mr-1 animate-[wobble_1.5s_linear_infinite] inline-block text-gray-300">
             👋🏼
           </span>
           Saludos, hablamos pronto!
-        </p>
+        </p> */}
       </div>
     </>
   );
