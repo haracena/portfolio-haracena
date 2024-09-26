@@ -67,15 +67,30 @@ export default function MobileNavbar() {
             onClick={() => {
               setIsOpen((prev) => !prev);
             }}
-            to="languages"
+            to="experience"
             smooth
             offset={-60}
             duration={300}
           >
             <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
-              Idiomas
+              Experiencia
             </li>
           </ScrollLink>
+
+          <ScrollLink
+            onClick={() => {
+              setIsOpen((prev) => !prev);
+            }}
+            to="projects"
+            smooth
+            offset={-60}
+            duration={300}
+          >
+            <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
+              Proyectos
+            </li>
+          </ScrollLink>
+
           <ScrollLink
             onClick={() => {
               setIsOpen((prev) => !prev);
@@ -89,18 +104,17 @@ export default function MobileNavbar() {
               Educación
             </li>
           </ScrollLink>
-
           <ScrollLink
             onClick={() => {
               setIsOpen((prev) => !prev);
             }}
-            to="experience"
+            to="languages"
             smooth
             offset={-60}
             duration={300}
           >
             <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
-              Experiencia
+              Idiomas
             </li>
           </ScrollLink>
         </ul>
@@ -116,6 +130,15 @@ export default function MobileNavbar() {
             >
               <FaLinkedin className="text-lg" />
               Linkedin
+            </Link>
+          </li>
+          <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
+            <Link
+              className="flex gap-2 items-center"
+              href={"mailto: haracena.dev@gmail.com"}
+            >
+              <ImMail4 className="text-lg" />
+              Correo electrónico
             </Link>
           </li>
 
@@ -138,15 +161,6 @@ export default function MobileNavbar() {
             >
               <RiWhatsappFill className="text-lg h-5 w-5" />
               Whatsapp
-            </Link>
-          </li>
-          <li className="hover:text-gray-50 cursor-pointer hover:-translate-y-[2px] transition-all duration-300">
-            <Link
-              className="flex gap-2 items-center"
-              href={"mailto: haracena.dev@gmail.com"}
-            >
-              <ImMail4 className="text-lg" />
-              Correo electrónico
             </Link>
           </li>
         </ul>

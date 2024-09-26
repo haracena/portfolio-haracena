@@ -19,20 +19,26 @@ export default function Navbar() {
         />
       </div>
       <ul className="flex justify-center gap-8 basis-full">
-        <ScrollLink to="languages" smooth offset={-40} duration={300}>
+        <ScrollLink to="experience" smooth offset={-40} duration={300}>
           <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
-            Idiomas
+            Experiencia
           </li>
         </ScrollLink>
+
+        <ScrollLink to="projects" smooth offset={-40} duration={300}>
+          <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
+            Proyectos
+          </li>
+        </ScrollLink>
+
         <ScrollLink to="education" smooth offset={-40} duration={300}>
           <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
             Educación
           </li>
         </ScrollLink>
-
-        <ScrollLink to="experience" smooth offset={-40} duration={300}>
+        <ScrollLink to="languages" smooth offset={-40} duration={300}>
           <li className="cursor-pointer text-gray-300 hover:text-indigo-500 transition-all duration-300">
-            Experiencia
+            Idiomas
           </li>
         </ScrollLink>
       </ul>
