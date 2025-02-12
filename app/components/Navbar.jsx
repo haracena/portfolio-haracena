@@ -6,7 +6,6 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
-
 export default function Navbar() {
   return (
     <nav className="max-w-7xl mx-auto p-8 hidden lg:flex items-center">
