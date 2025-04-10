@@ -50,7 +50,7 @@ export const Card = ({ className, children, imageURL }) => {
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-2 overflow-hidden bg-black transition-all duration-300 shadow-sm group-hover:shadow-2xl relative z-20 group",
+        "rounded-2xl h-full w-full p-2 py-4 overflow-hidden bg-black transition-all duration-300 shadow-sm group-hover:shadow-2xl relative z-20 group",
         className
       )}
     >
@@ -72,7 +72,7 @@ export const Card = ({ className, children, imageURL }) => {
 };
 export const CardTitle = ({ className, children }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4 className={cn("text-zinc-100 font-bold tracking-wide", className)}>
       {children}
     </h4>
   );
@@ -81,7 +81,7 @@ export const CardDescription = ({ className, children }) => {
   return (
     <p
       className={cn(
-        "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm max-w-[66%]",
+        "mt-4 text-zinc-400 tracking-wide leading-relaxed text-sm max-w-[66%]",
         className
       )}
     >
