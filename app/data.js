@@ -161,6 +161,13 @@ export const experience = [
 
 export const projects = [
   {
+    id: 2,
+    title: "Color Pocket",
+    description: "Google chrome extension para capturar y organizar colores",
+    link: "https://www.colorpocket.app/",
+    imageURL: "/assets/images/color-pocket.webp",
+  },
+  {
     id: 0,
     title: "Codesight",
     description: "Landing page empresa desarrollo Codesight",
@@ -174,18 +181,18 @@ export const projects = [
     link: "https://broker-self.vercel.app/",
     imageURL: "/assets/images/broker.webp",
   },
-  {
-    id: 3,
-    title: "TV Play El Salvador",
-    description: "App mobile canales de tv abierta en El Salvador",
-    link: "https://play.google.com/store/apps/details?id=io.ionic.tvplaysv",
-    imageURL: "/assets/images/tvsv.webp",
-  },
-  {
-    id: 2,
-    title: "TV Chile Pro",
-    description: "App mobile canales de tv abierta en Chile",
-    link: "https://play.google.com/store/apps/details?id=io.ionic.tvzapingchile",
-    imageURL: "/assets/images/tvchilepro.webp",
-  },
+  // {
+  //   id: 3,
+  //   title: "TV Play El Salvador",
+  //   description: "App mobile canales de tv abierta en El Salvador",
+  //   link: "https://play.google.com/store/apps/details?id=io.ionic.tvplaysv",
+  //   imageURL: "/assets/images/tvsv.webp",
+  // },
+  // {
+  //   id: 2,
+  //   title: "TV Chile Pro",
+  //   description: "App mobile canales de tv abierta en Chile",
+  //   link: "https://play.google.com/store/apps/details?id=io.ionic.tvzapingchile",
+  //   imageURL: "/assets/images/tvchilepro.webp",
+  // },
 ];
