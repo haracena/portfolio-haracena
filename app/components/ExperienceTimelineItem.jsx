@@ -14,7 +14,12 @@ export default function ExperienceTimelineItem({
   projectColor,
   setOpenModal,
   setSelectedItem,
+  galleryImages,
+  isMobile,
 }) {
+  const displayImage =
+    projectImage || (galleryImages?.length > 0 ? galleryImages[0] : null);
+
   return (
     <li className="mb-10 ms-6">
       <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 dark:ring-gray-900 dark:bg-blue-900">
@@ -50,31 +55,34 @@ export default function ExperienceTimelineItem({
       ))}
 
       <div className="flex gap-3 flex-wrap">
-        {techStack.map((tech) => (
+        {techStack?.filter(Boolean).map((tech) => (
           <div
             className="py-1 px-3 bg-neutral-900 border border-neutral-800 flex gap-2 items-center rounded-full"
             key={tech.name}
           >
-            <Image
-              src={tech.colorIcon}
-              height={20}
-              width={20}
-              alt={`${tech.name} icon`}
-            />
+            {tech.colorIcon && (
+              <Image
+                src={tech.colorIcon}
+                height={20}
+                width={20}
+                alt={`${tech.name} icon`}
+              />
+            )}
             <span className="text-gray-200">{tech.name}</span>
           </div>
         ))}
       </div>
 
-      {projectImage && (
+      {displayImage && (
         <div className="my-4">
           <ExperienceImage
             id={id}
-            imageUrl={projectImage}
+            imageUrl={displayImage}
             projectUrl={projectUrl}
             color={projectColor}
             setOpenModal={setOpenModal}
             setSelectedItem={setSelectedItem}
+            isMobile={isMobile}
           />
         </div>
       )}

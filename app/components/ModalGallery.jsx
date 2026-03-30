@@ -7,6 +7,7 @@ export default function ModalGallery({
   openModal,
   setOpenModal,
   galleryImages,
+  isMobile,
 }) {
   return (
     <Modal
@@ -17,15 +18,20 @@ export default function ModalGallery({
       position={"center"}
       size={"6xl"}
     >
-      <div className="w-full aspect-video flex justify-center items-center bg-neutral-950 h-screen md:h-min ring-1 ring-black fixed top-0 left-0 inset-0 md:relative">
+      <div
+        className={`w-full flex justify-center items-center bg-neutral-950 h-screen md:h-min ring-1 ring-black fixed top-0 left-0 inset-0 md:relative ${
+          isMobile ? "aspect-[9/16] max-h-[90vh]" : "aspect-video"
+        }`}
+      >
         <Carousel pauseOnHover>
           {galleryImages.map((url) => (
             <Image
-              width={1910}
-              height={920}
+              width={isMobile ? 1080 : 1910}
+              height={isMobile ? 1920 : 920}
               key={url}
               src={url}
               alt="pantallazo"
+              className={isMobile ? "object-contain h-full w-auto" : ""}
             />
           ))}
         </Carousel>

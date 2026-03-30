@@ -8,7 +8,7 @@ import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { CiLocationOn } from 'react-icons/ci'
 import AnimatedBadge from './components/AnimatedBadge'
 import { HoverEffect } from './components/CardHoverEffect'
-import { projects } from './data'
+import { projects, experience, independentProjects } from './data'
 
 export default function Home() {
     return (
@@ -79,11 +79,18 @@ export default function Home() {
                 </section>
 
                 <main>
+                    <section className="my-20" id="independent-projects">
+                        <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+                            Proyectos Independientes
+                        </h2>
+                        <ExperienceTimeline items={independentProjects} />
+                    </section>
+
                     <section className="my-20" id="experience">
                         <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
                             Experiencia
                         </h2>
-                        <ExperienceTimeline />
+                        <ExperienceTimeline items={experience} />
                     </section>
 
                     <section className="my-20" id="projects">

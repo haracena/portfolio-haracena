@@ -89,12 +89,117 @@ export const technologies = [
     grayIcon: "",
     colorIcon: "/assets/icons/figma.svg",
   },
+  {
+    name: "Nest JS",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "PostgreSQL",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Prisma",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Docker",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Railway",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "TanStack Query",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Radix UI",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Framer Motion",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Three JS",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Telegram SDK",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Matter JS",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "OnchainKit",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Wagmi",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Viem",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Farcaster SDK",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Recharts",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Solidity",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Redis",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Base",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Vite",
+    grayIcon: "",
+    colorIcon: "",
+  },
+  {
+    name: "Zustand",
+    grayIcon: "",
+    colorIcon: "",
+  },
 ];
 
 export const findManyTechsByIdArray = (list) => {
   return list.map((item) =>
     technologies.find(
-      (tech) => tech.name.toLocaleLowerCase() == item.toLocaleLowerCase()
-    )
+      (tech) => tech.name.toLocaleLowerCase() == item.toLocaleLowerCase(),
+    ),
   );
 };

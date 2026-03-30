@@ -1,0 +1,228 @@
+cv:
+  name: Hugo Aracena
+  location: La Serena, Chile
+  email: hugo@haracena.com
+  website: https://haracena.com
+  social_networks:
+    - network: LinkedIn
+      username: hugoaracena
+    - network: GitHub
+      username: hugoaracena
+
+  sections:
+    Resumen:
+      - >
+        Desarrollador Frontend con más de 5 años de experiencia creando aplicaciones web
+        modernas y escalables. Especializado en React.js, Next.js y TypeScript, con
+        experiencia adicional en desarrollo Full Stack, integración Web3/blockchain y
+        despliegue de aplicaciones en producción. Capacidad comprobada para llevar
+        proyectos desde el diseño en Figma hasta el lanzamiento, optimizando UX y
+        rendimiento en cada etapa.
+
+    Experiencia:
+      - company: Lisit
+        position: Desarrollador Frontend
+        location: Santiago, Chile
+        start_date: 2024-03
+        end_date: 2024-06
+        highlights:
+          - Desarrollé el frontend de una aplicación interna para la gestión de
+            salud financiera y operacional de proyectos, incluyendo módulos de
+            pricing, planificación, facturación y reportería.
+          - Construí la aplicación desde cero con React.js, TypeScript, Tailwind
+            CSS, TanStack Query, TanStack Table y Zustand.
+
+      - company: Lisit
+        position: Desarrollador Frontend
+        location: Santiago, Chile
+        start_date: 2023-07
+        end_date: 2023-09
+        highlights:
+          - Desarrollé una aplicación frontend para el proyecto Procurement de
+            Softys, con módulos de gestión de archivos, RRHH y eventos corporativos.
+          - "Stack utilizado: Vue.js y CSS."
+
+      - company: Future NFT Drops
+        position: Desarrollador Frontend Independiente
+        location: Remoto
+        start_date: 2023-02
+        end_date: 2023-06
+        highlights:
+          - Construí íntegramente futurenftdrops.com, desde el diseño en Figma
+            hasta el desarrollo completo, incluyendo autenticación y gestión de
+            contenido generado por usuarios.
+          - Implementé SSR con Next.js 13 para optimización SEO, backend con
+            Supabase y peticiones HTTP a través de API Route Handlers.
+
+      - company: Lisit
+        position: Desarrollador Frontend
+        location: Santiago, Chile
+        start_date: 2022-04
+        end_date: 2022-05
+        highlights:
+          - Desarrollé una landing page para la campaña de invierno de Abastible
+            usando Next.js 12 y CSS Modules.
+          - Implementé Google Tag Manager para el monitoreo de actividad de usuarios.
+
+      - company: Mi Examen
+        position: Desarrollador Frontend
+        location: Santiago, Chile
+        start_date: 2022-03
+        end_date: 2023-01
+        highlights:
+          - Desarrollé el frontend de Himalia, aplicación web para la gestión de
+            agendamiento de pacientes en laboratorios clínicos.
+          - Mejoré la experiencia de usuario (UX) y el flujo de agendamiento de
+            exámenes PCR, reduciendo las consultas de soporte de los usuarios.
+          - Stack React.js con Meteor.js para la app web y Next.js para la landing
+            page. Diseño de interfaces en Figma.
+
+      - company: Desarrollador Independiente
+        position: Desarrollador Mobile
+        location: La Serena, Chile
+        start_date: 2019-06
+        end_date: 2019-07
+        highlights:
+          - Desarrollé y publiqué la aplicación móvil "Ciclo Cósmico" en Google
+            Play Store, con funciones de horóscopos diarios y compatibilidad de
+            signos zodiacales.
+          - Implementé el backend con Node.js, MongoDB y un VPS en DigitalOcean.
+            Desarrollo mobile con Ionic Framework y Angular.
+
+      - company: Innoti
+        position: Desarrollador de Software (Práctica Profesional)
+        location: Chile
+        start_date: 2019-01
+        end_date: 2019-03
+        highlights:
+          - Participé en el desarrollo de una aplicación de escritorio para la
+            gestión de planos arquitectónicos de la empresa Up-BIM, utilizando
+            Electron Framework, JavaScript, HTML y CSS.
+
+    Proyectos:
+      - name: Block Gangs
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Desarrollo Full Stack de un juego Telegram Mini App (TMA) con mecánicas
+            RPG, combate y economía digital.
+          - "Frontend: Next.js 16, React 19, Tailwind CSS v4, TanStack Query para
+            interfaz mobile-first."
+          - "Backend: API RESTful modular con NestJS y PostgreSQL. Gestión de
+            economía, inventarios, combates, ranking y misiones con Prisma ORM."
+          - Despliegue en Railway con integración del SDK de Telegram para
+            autenticación de usuarios.
+
+      - name: Farbubbles
+        start_date: 2024-10
+        end_date: 2024-12
+        highlights:
+          - Mini App interactiva para Farcaster (Base L2) que visualiza datos de
+            mercado de criptomonedas en tiempo real mediante un gráfico de burbujas
+            dinámico con Matter.js.
+          - Integración DeFi con 0x API, OnchainKit, Wagmi y Viem. Datos en vivo
+            via GeckoTerminal API.
+          - Stack Next.js, React, TypeScript, Tailwind CSS, TanStack Query,
+            Recharts, Farcaster SDK.
+
+      - name: Olympus Flip
+        start_date: 2024-08
+        end_date: 2024-10
+        highlights:
+          - dApp de juego "Coin Flip" provablemente justo en Farcaster (Base L2),
+            con transacciones en tiempo real y UX mobile-first.
+          - Smart Contracts en Solidity con patrón Commit-Reveal para aleatoriedad
+            segura y verificable en blockchain.
+          - Integración Web3 con OnchainKit, Farcaster SDK, Wagmi y Viem.
+
+      - name: Spotlight (Hackathon Winner)
+        start_date: 2024-05
+        end_date: 2024-06
+        highlights:
+          - Plataforma de subastas descentralizada en Farcaster (Base Network),
+            ganadora de hackathon.
+          - Desarrollé el flujo "One-Click Bid" con approval automático de tokens
+            ERC-20 (USDC), eliminando fricción en las transacciones.
+          - UI mobile-first con Next.js 14, Tailwind, Framer Motion y caché de
+            alto rendimiento con Redis.
+
+      - name: Color Pocket
+        date: 2023-12
+        highlights:
+          - Extensión de navegador para diseñadores y desarrolladores. Captura,
+            organiza y convierte colores de cualquier sitio web en tiempo real.
+          - Gestión de estado con Zustand y persistencia local. Conversión HEX,
+            RGB, HSL y OKLCH con EyeDropper API.
+          - Stack React 19, TypeScript, Vite, Tailwind CSS, Radix UI, Framer Motion.
+          - "Disponible en: https://www.colorpocket.app/"
+
+    Educación:
+      - institution: Universidad INACAP
+        area: "Ingeniería en Informática – Ingeniero / Lic. en Informática"
+        location: La Serena, Chile
+        start_date: 2015
+        end_date: 2019
+
+      - institution: Universidad de La Serena
+        area: Ingeniería en Computación - Estudiante
+        location: La Serena, Chile
+        start_date: 2013
+        end_date: 2014
+
+      - institution: Escalab OTEC
+        area: "Desarrollo Web – Curso de React.js"
+        location: Santiago, Chile
+        start_date: 2020-04
+        end_date: 2020-07
+
+    skills:
+      - label: Frontend
+        details: >
+          React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Vue.js,
+          HTML, CSS, SCSS, TanStack Query, Zustand, Framer Motion, Radix UI,
+          Vite
+      - label: Backend
+        details: >
+          Node.js, NestJS, Prisma ORM, PostgreSQL, MongoDB, Supabase,
+          Meteor.js, REST API
+      - label: Web3 / Blockchain
+        details: >
+          Solidity, Wagmi, Viem, OnchainKit, Farcaster SDK, Telegram SDK,
+          Base Network
+      - label: Herramientas
+        details: >
+          Git, GitHub, Figma, Docker, Railway, Redis, Electron,
+          Google Tag Manager, Ionic, Angular
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+  colors:
+    name: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+  typography:
+    font_family: Source Sans 3
+    alignment: justified
+
+locale:
+  language: spanish
+  month_abbreviations:
+    - Ene
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dic
+  present: Actualidad
