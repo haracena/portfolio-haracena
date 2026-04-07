@@ -41,7 +41,7 @@ export default function Home() {
                             La Serena, Chile{' '}
                             <CiLocationOn className="inline-block" />
                         </p>
-                        <div className="mt-4 flex justify-center md:justify-start gap-2">
+                        <div className="mt-2 flex justify-center md:justify-start gap-2">
                             <a
                                 href={'https://github.com/haracena'}
                                 target="_blank"
