@@ -4,38 +4,31 @@ import BasicTimeLine from './components/BasicTimelineItem'
 import ExperienceTimeline from './components/ExperienceTimeline'
 import TechMarquee from './components/TechMarquee'
 import HeaderImage from './components/HeaderImage'
+import ProjectsGrid from './components/ProjectsGrid'
 import { FaWhatsapp, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { CiLocationOn } from 'react-icons/ci'
 import AnimatedBadge from './components/AnimatedBadge'
 import { HoverEffect } from './components/CardHoverEffect'
 import { projects, experience, independentProjects } from './data'
+import ProfileComposition from './components/ProfileComposition'
 
 export default function Home() {
     return (
         <>
             <div className="relative overflow-hidden max-w-5xl my-6 mx-auto p-4 sm:p-12 lg:px-24 py-8 sm:border sm:border-[#151515] sm:rounded-2xl sm:bg-[#0E0E0E] sm:bg-opacity-80 sm:backdrop-blur-sm sm:shadow">
-                {/* <div className="hidden sm:block py-1 px-8 absolute top-3 right-10 rotate-45 translate-y-1/2 translate-x-1/2 bg-gradient-to-r from-indigo-800 to-indigo-700 text-sm text-gray-50 shadow">
-          Open to work
-        </div> */}
-                <header className="grid grid-cols-1 justify-items-center md:grid-cols-[auto_1fr] md:gap-12 md:items-center">
-                    <HeaderImage />
-                    <div className="flex flex-col gap-2 text-center md:text-start">
+                <header className="relative flex flex-col-reverse md:grid justify-items-center md:grid-cols-[1fr_260px] md:gap-16 md:items-center pt-6 md:pt-0">
+                    <div className="flex flex-col gap-4 text-center md:text-start py-6">
                         <span className="mt-2 flex md:hidden self-center">
                             <AnimatedBadge />
                         </span>
-                        <h1 className="flex justify-center md:justify-start items-center gap-4 pb-1 text-4xl sm:text-4xl text-transparent bg-clip-text font-medium bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
+                        <h1 className="flex justify-center md:justify-start items-center gap-4 pb-1 text-4xl sm:text-5xl uppercase text-transparent bg-clip-text font-bold bg-gradient-to-b from-[#FFFFFF] to-[#686868]">
                             Hugo Aracena
-                            <span className="mt-1 hidden lg:flex self-center">
-                                <AnimatedBadge />
-                            </span>
                         </h1>
                         <p
                             className="text-gray-400"
-                            style={{ textWrap: 'balance' }}
+                            style={{ textWrap: 'pretty' }}
                         >
-                            Ingeniero en informática, desarrollador web con
-                            experiencia en Front End. Apasionado por la
-                            tecnología.{' '}
+                            Ingeniero en informática, desarrollador de software frontend con experiencia creando aplicaciones web modernas y escalables.
                             {/* <Image
                 src={"/assets/icons/react-gray.svg"}
                 width={18}
@@ -44,7 +37,7 @@ export default function Home() {
                 className="inline-block animate-[spin_3s_linear_infinite]"
               /> */}
                         </p>
-                        <p className="text-gray-400">
+                        <p className="text-gray-500 text-sm">
                             La Serena, Chile{' '}
                             <CiLocationOn className="inline-block" />
                         </p>
@@ -72,6 +65,7 @@ export default function Home() {
               <AnimatedBadge />
             </span> */}
                     </div>
+                    <ProfileComposition />
                 </header>
 
                 <section className="my-16">
@@ -80,10 +74,10 @@ export default function Home() {
 
                 <main>
                     <section className="my-20" id="independent-projects">
-                        <h2 className="text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
-                            Proyectos Independientes
+                        <h2 className="text-3xl sm:text-4xl mb-10 text-transparent bg-clip-text font-medium bg-gradient-to-br from-[#FFFFFF] to-[#686868]">
+                            Proyectos Recientes
                         </h2>
-                        <ExperienceTimeline items={independentProjects} />
+                        <ProjectsGrid items={independentProjects} />
                     </section>
 
                     <section className="my-20" id="experience">

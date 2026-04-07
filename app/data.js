@@ -165,6 +165,7 @@ export const independentProjects = [
     startDate: "Enero 2026",
     endDate: "Actualidad",
     company: "Block Gangs",
+    projectSubtitle: "Mini app de telegram, juego RPG",
     description: [
       "Desarrollo Full Stack de un juego diseñado como una Telegram Mini App (TMA). El proyecto combina mecánicas RPG, combate y economía digital.",
       "Frontend: Desarrollé una interfaz 'mobile-first' utilizando Next.js 16, React 19 y Tailwind CSS v4. Utilicé TanStack Query para una gestión robusta del estado.",
@@ -182,7 +183,8 @@ export const independentProjects = [
       "TanStack Query",
       "Telegram SDK",
     ]),
-    projectImage: "", // Placeholder or remove if no image
+    projectIcon: "/assets/images/blockgangs-logo.webp",
+    projectColor: "#8B322C",
     isMobile: true,
     galleryImages: ["/assets/images/blockgangs-1.webp", "/assets/images/blockgangs-2.webp", "/assets/images/blockgangs-3.webp", "/assets/images/blockgangs-4.webp", "/assets/images/blockgangs-5.webp", "/assets/images/blockgangs-6.webp", "/assets/images/blockgangs-7.webp", "/assets/images/blockgangs-8.webp", "/assets/images/blockgangs-9.webp"],
   },
@@ -190,7 +192,8 @@ export const independentProjects = [
     id: 101,
     startDate: "Octubre 2024",
     endDate: "Diciembre 2024",
-    company: "Farbubbles",
+    company: "Base Bubbles",
+    projectSubtitle: "Mini app de Farcaster, trading de tokens",
     description: [
       "Mini App interactiva para Farcaster construida en la red Base L2 que visualiza datos del mercado de criptomonedas en tiempo real. La aplicación combina una interfaz de usuario basada en física con funcionalidad de finanzas descentralizadas (DeFi).",
       "Visualización Interactiva: Implementé un gráfico de burbujas dinámico con Matter.js, donde el tamaño representa Capitalización de Mercado, Volumen o Cambio de Precio.",
@@ -210,15 +213,17 @@ export const independentProjects = [
       "TanStack Query",
       "Recharts",
     ]),
-    projectImage: "", // Placeholder
+    projectIcon: "/assets/images/basebubbles-logo.webp",
+    projectColor: "#1652AF",
     isMobile: true,
-    // galleryImages: [],
+    galleryImages: ["/assets/images/basebubbles-1.webp", "/assets/images/basebubbles-4.webp", "/assets/images/basebubbles-2.webp"],
   },
   {
     id: 102,
     startDate: "Agosto 2024",
     endDate: "Octubre 2024",
     company: "Olympus Flip",
+    projectSubtitle: "Mini app de Farcaster, juego de apuestas",
     description: [
       "Mini App de Farcaster en Base. Desarrollo de una aplicación descentralizada (dApp) integrada nativamente como una 'Mini App'. El proyecto es un juego de apuestas 'Coin Flip' provablemente justo que permite transacciones en tiempo real.",
       "Smart Contracts: Implementé contratos en Solidity utilizando el patrón 'Commit-Reveal' para garantizar aleatoriedad segura y verificable en la blockchain.",
@@ -238,15 +243,17 @@ export const independentProjects = [
       "TanStack Query",
       "Farcaster SDK",
     ]),
-    projectImage: "", // Placeholder
+    projectIcon: "/assets/images/olympusflip-logo.webp",
+    projectColor: "#4B2896",
     isMobile: true,
-    // galleryImages: [],
+    galleryImages: ["/assets/images/olympusflip-1.webp", "/assets/images/olympusflip-2webp.webp", "/assets/images/olympusflip-3.webp", "/assets/images/olympusflip-4.webp"],
   },
   {
     id: 103,
     startDate: "Mayo 2024",
     endDate: "Junio 2024",
     company: "Spotlight",
+    projectSubtitle: "Mini app de Farcaster, Visibilidad para usuarios",
     description: [
       "Plataforma de subastas descentralizada en Farcaster (Base Network). Lideré el desarrollo del frontend e integración blockchain para este proyecto ganador de hackathon.",
       "Arquitectura Web3: Integración completa con Base Mainnet usando Wagmi y Viem. Desarrollé un hook personalizado 'useCastAuction' para la gestión de estados de subasta.",
@@ -267,15 +274,17 @@ export const independentProjects = [
       "Framer Motion",
       "Farcaster SDK",
     ]),
-    projectImage: "", // Placeholder
+    projectIcon: "/assets/images/spotlight-logo.webp",
+    projectColor: "#171717",
     isMobile: true,
-    // galleryImages: [],
+    galleryImages: ["/assets/images/spotlight-1.webp", "/assets/images/spotlight-2.webp", "/assets/images/spotlight-3.webp", "/assets/images/spotlight-4.webp", "/assets/images/spotlight-5.webp", "/assets/images/spotlight-6.webp"],
   },
   {
     id: 104,
     startDate: "Diciembre 2023",
     endDate: "Enero 2024",
     company: "Color Pocket",
+    projectSubtitle: "Extensión de Google Chrome, gestión y carptura de colores",
     description: [
       "Extensión de navegador profesional para optimizar el flujo de trabajo de diseñadores y desarrolladores. Permite capturar, organizar y convertir colores de cualquier sitio web.",
       "Frontend Reactivo: Interfaz moderna con React 19 y Vite, asegurando tiempos de carga instantáneos.",
@@ -290,10 +299,12 @@ export const independentProjects = [
       "Zustand",
       "Framer Motion",
     ]),
-    projectImage: "/assets/images/color-pocket.webp",
+    projectIcon: "/assets/images/colorpocket-logo.webp",
+    projectColor: "#281822",
     projectUrl: "https://www.colorpocket.app/",
     isMobile: false,
-    // galleryImages: [],
+    layout: "horizontal",
+    galleryImages: ["/assets/images/colorpocket-1.webp", "/assets/images/colorpocket-2.webp", "/assets/images/colorpocket-3.webp", "/assets/images/colorpocket-4.webp", "/assets/images/colorpocket-5.webp", "/assets/images/colorpocket-6.webp"],
   },
 ];
 
