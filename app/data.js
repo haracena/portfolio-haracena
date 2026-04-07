@@ -163,7 +163,7 @@ export const independentProjects = [
   {
     id: 100,
     startDate: "Enero 2026",
-    endDate: "Actualidad",
+    endDate: "Marzo 2026",
     company: "Block Gangs",
     projectSubtitle: "Mini app de telegram, juego RPG",
     description: [
@@ -190,8 +190,8 @@ export const independentProjects = [
   },
   {
     id: 101,
-    startDate: "Octubre 2024",
-    endDate: "Diciembre 2024",
+    startDate: "Octubre 2025",
+    endDate: "Diciembre 2025",
     company: "Base Bubbles",
     projectSubtitle: "Mini app de Farcaster, trading de tokens",
     description: [
@@ -216,12 +216,12 @@ export const independentProjects = [
     projectIcon: "/assets/images/basebubbles-logo.webp",
     projectColor: "#1652AF",
     isMobile: true,
-    galleryImages: ["/assets/images/basebubbles-1.webp", "/assets/images/basebubbles-4.webp", "/assets/images/basebubbles-2.webp"],
+    galleryImages: ["/assets/images/basebubbles-1.webp", "/assets/images/basebubbles-2.webp", "/assets/images/basebubbles-4.webp", "/assets/images/basebubbles-3.webp"],
   },
   {
     id: 102,
-    startDate: "Agosto 2024",
-    endDate: "Octubre 2024",
+    startDate: "Septiembre 2025",
+    endDate: "Noviembre 2025",
     company: "Olympus Flip",
     projectSubtitle: "Mini app de Farcaster, juego de apuestas",
     description: [
@@ -250,8 +250,8 @@ export const independentProjects = [
   },
   {
     id: 103,
-    startDate: "Mayo 2024",
-    endDate: "Junio 2024",
+    startDate: "Junio 2025",
+    endDate: "Octubre 2025",
     company: "Spotlight",
     projectSubtitle: "Mini app de Farcaster, Visibilidad para usuarios",
     description: [
@@ -281,10 +281,10 @@ export const independentProjects = [
   },
   {
     id: 104,
-    startDate: "Diciembre 2023",
-    endDate: "Enero 2024",
+    startDate: "Febrero 2025",
+    endDate: "Mayo 2025",
     company: "Color Pocket",
-    projectSubtitle: "Extensión de Google Chrome, gestión y carptura de colores",
+    projectSubtitle: "Extensión de Google Chrome, gestión y captura de colores",
     description: [
       "Extensión de navegador profesional para optimizar el flujo de trabajo de diseñadores y desarrolladores. Permite capturar, organizar y convertir colores de cualquier sitio web.",
       "Frontend Reactivo: Interfaz moderna con React 19 y Vite, asegurando tiempos de carga instantáneos.",

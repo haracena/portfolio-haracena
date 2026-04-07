@@ -43,7 +43,7 @@ export default function ProjectCard({ project, onClick }) {
         <div className={`relative flex-1 ${isHorizontal ? 'md:w-1/2' : 'h-1/2'}`}>
           {!isHorizontal ? (
             /* Mobile Mockups Layout (Vertical Card) */
-            <div className="absolute -bottom-[34vw] min-[512px]:-bottom-[45vw] md:-bottom-[110px] min-[816px]:-bottom-[140px] lg:-bottom-[80px] left-1/2 -translate-x-1/2 w-[110%] h-[120%] flex justify-center items-end px-4 gap-2">
+            <div className="absolute -bottom-[25vw] min-[512px]:-bottom-[45vw] md:-bottom-[110px] min-[816px]:-bottom-[140px] lg:-bottom-[80px] left-1/2 -translate-x-1/2 w-[110%] h-[120%] flex justify-center items-end px-4 gap-2">
               {mockups.map((img, idx) => (
                 <motion.div
                   key={idx}

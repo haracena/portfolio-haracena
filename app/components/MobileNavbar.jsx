@@ -67,13 +67,13 @@ export default function MobileNavbar() {
             onClick={() => {
               setIsOpen((prev) => !prev);
             }}
-            to="experience"
+            to="independent-projects"
             smooth
             offset={-60}
             duration={300}
           >
             <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
-              Experiencia
+              Proyectos
             </li>
           </ScrollLink>
 
@@ -81,13 +81,13 @@ export default function MobileNavbar() {
             onClick={() => {
               setIsOpen((prev) => !prev);
             }}
-            to="projects"
+            to="experience"
             smooth
             offset={-60}
             duration={300}
           >
             <li className="cursor-pointer text-gray-300 hover:text-white transition-all duration-300">
-              Proyectos
+              Experiencia
             </li>
           </ScrollLink>
 
