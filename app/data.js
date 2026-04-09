@@ -170,7 +170,7 @@ export const independentProjects = [
       "Desarrollo Full Stack de un juego diseñado como una Telegram Mini App (TMA). El proyecto combina mecánicas RPG, combate y economía digital.",
       "Frontend: Desarrollé una interfaz 'mobile-first' utilizando Next.js 16, React 19 y Tailwind CSS v4. Utilicé TanStack Query para una gestión robusta del estado.",
       "Backend: Diseñé e implementé una API RESTful modular con NestJS y PostgreSQL. La arquitectura gestiona la economía del juego, inventarios, combates, sistema de niveles, ranking, misiones y eventos especiales, asegurando la integridad de las transacciones con Prisma ORM.",
-      "Infraestructura & Integración: Configuré el despliegue con Railway. Integré el SDK de Telegram para autenticación de usuarios.",
+      "Infraestructura & Integración: Configuré el despliegue con Railway y Vercel. Integré el SDK de Telegram para autenticación de usuarios.",
     ],
     techStack: findManyTechsByIdArray([
       "Next JS",
@@ -225,8 +225,7 @@ export const independentProjects = [
     company: "Olympus Flip",
     projectSubtitle: "Mini app de Farcaster, juego de apuestas",
     description: [
-      "Mini App de Farcaster en Base. Desarrollo de una aplicación descentralizada (dApp) integrada nativamente como una 'Mini App'. El proyecto es un juego de apuestas 'Coin Flip' provablemente justo que permite transacciones en tiempo real.",
-      "Smart Contracts: Implementé contratos en Solidity utilizando el patrón 'Commit-Reveal' para garantizar aleatoriedad segura y verificable en la blockchain.",
+      "Mini App de Farcaster en Base. Desarrollo de una aplicación descentralizada (dApp) integrada nativamente como una Mini App. El proyecto es un juego de apuestas Coin Flip provablemente justo que permite transacciones en tiempo real.",
       "Frontend & Web3: Integré OnchainKit y Farcaster SDK para una experiencia 'crypto-native' fluida, incluyendo conexión de wallets y firma de transacciones. Utilicé React Query y Wagmi para gestión de estado asíncrono y optimistic UI.",
       "UX Mobile-First: Diseñé una interfaz moderna y responsiva orientada a dispositivos móviles, asegurando tiempos de carga rápidos y feedback inmediato.",
     ],
@@ -255,10 +254,11 @@ export const independentProjects = [
     company: "Spotlight",
     projectSubtitle: "Mini app de Farcaster, Visibilidad para usuarios",
     description: [
-      "Plataforma de subastas descentralizada en Farcaster (Base Network). Lideré el desarrollo del frontend e integración blockchain para este proyecto ganador de hackathon.",
-      "Arquitectura Web3: Integración completa con Base Mainnet usando Wagmi y Viem. Desarrollé un hook personalizado 'useCastAuction' para la gestión de estados de subasta.",
-      "UX DeFi Optimizada: Implementé un flujo de 'One-Click Bid' con approval automático de tokens ERC-20 (USDC), eliminando fricción en las transacciones.",
-      "Frontend & Infraestructura: UI reactiva 'mobile-first' con Next.js 14, Tailwind y Framer Motion. Integración profunda con Farcaster Frames y uso de Redis para caché de alto rendimiento.",
+      "Spotlight es una mini app construida sobre Farcaster que gamifica la interacción social mediante rifas diarias y recompensas en tokens.",
+      "Cada día, un usuario es seleccionado como “Spotlight winner”, convirtiéndose en el centro de atención de la comunidad.",
+      "Otros usuarios pueden interactuar con su perfil (likes, follows, replies, recasts) para ganar tickets y aumentar sus probabilidades de ganar en futuras rondas.",
+      "El sistema incentiva la participación constante, mejora la visibilidad de creadores sin necesidad de pagar por promoción y fomenta el crecimiento orgánico dentro del ecosistema.",
+      "Además, integra mecánicas de airdrop, campañas de adquisición y recompensas en tokens ($BETR), alineadas con dinámicas onchain."
     ],
     techStack: findManyTechsByIdArray([
       "Next JS",
@@ -286,7 +286,7 @@ export const independentProjects = [
     company: "Color Pocket",
     projectSubtitle: "Extensión de Google Chrome, gestión y captura de colores",
     description: [
-      "Extensión de navegador profesional para optimizar el flujo de trabajo de diseñadores y desarrolladores. Permite capturar, organizar y convertir colores de cualquier sitio web.",
+      "Extensión de navegador (Google Chrome) para optimizar el flujo de trabajo de diseñadores y desarrolladores. Permite capturar, organizar y convertir colores de cualquier sitio web.",
       "Frontend Reactivo: Interfaz moderna con React 19 y Vite, asegurando tiempos de carga instantáneos.",
       "Gestión de Estado: Implementé Zustand con persistencia local para gestionar preferencias y favoritos a través de sesiones.",
       "APIs Modernas: Uso de EyeDropper API para selección precisa y utilidades de conversión en tiempo real (HEX, RGB, HSL, OKLCH). UI pulida con Radix UI y Tailwind.",

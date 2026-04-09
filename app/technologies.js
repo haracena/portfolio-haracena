@@ -35,7 +35,7 @@ export const technologies = [
     colorIcon: "/assets/icons/sass.svg",
   },
   {
-    name: "tailwind",
+    name: "Tailwind",
     grayIcon: "/assets/icons/tailwind-gray.svg",
     colorIcon: "/assets/icons/tailwind.svg",
   },

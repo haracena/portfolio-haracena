@@ -8,8 +8,43 @@ import SpeedDial from "./components/SpeedDial";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hugo Aracena",
-  description: "CV Software developer Hugo Aracena",
+  title: "Hugo Aracena | Frontend Software Engineer",
+  description:
+    "Ingeniero en informática y desarrollador Frontend especializado en crear aplicaciones web modernas, escalables. Experiencia en React, Next.js y ecosistemas Web3.",
+  keywords: [
+    "Hugo Aracena",
+    "Frontend",
+    "Software Engineer",
+    "React",
+    "Next.js",
+    "Web3",
+    "Portfolio",
+    "Chile",
+  ],
+  authors: [{ name: "Hugo Aracena" }],
+  openGraph: {
+    title: "Hugo Aracena | Frontend Software Engineer",
+    description: "Desarrollo de aplicaciones web modernas, escalables.",
+    url: "https://hugoaracena.site",
+    siteName: "Hugo Aracena Portfolio",
+    images: [
+      {
+        url: "/assets/images/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Hugo Aracena Portfolio Preview",
+      },
+    ],
+    locale: "es_CL",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hugo Aracena | Frontend Software Engineer",
+    description:
+      "Ingeniero en informática especializado en aplicaciones web modernas.",
+    images: ["/assets/images/og-image.webp"],
+  },
 };
 
 export default function RootLayout({ children }) {

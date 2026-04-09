@@ -106,3 +106,16 @@ body {
   animation-name: fadeInUp;
   animation-duration: 1s;
 }
+
+@keyframes scrollDown {
+  from {
+    transform: translate3d(-50%, -50%, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-scroll-down {
+  animation: scrollDown 30s linear infinite;
+}
