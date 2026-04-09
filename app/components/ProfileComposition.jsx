@@ -15,7 +15,7 @@ export default function ProfileComposition() {
         priority
         className="absolute bottom-0 z-10 left-1/2 -translate-x-1/2 pointer-events-none"
       />
-      <div className="absolute top-0 left-1/2 w-full h-[200%] opacity-50 pointer-events-none animate-scroll-down">
+      <div className="absolute top-0 left-1/2 w-full h-[200%] opacity-60 pointer-events-none animate-scroll-down">
         <img
           src={"/assets/images/projects-composition.webp"}
           alt="projects composition"
@@ -24,7 +24,7 @@ export default function ProfileComposition() {
         <img
           src={"/assets/images/projects-composition.webp"}
           alt="projects composition"
-          className="h-1/2 w-full object-cover -mt-3"
+          className="h-1/2 w-full object-cover translate-y-[-12px]"
         />
       </div>
     </div>

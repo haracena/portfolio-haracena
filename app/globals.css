@@ -109,7 +109,7 @@ body {
 
 @keyframes scrollDown {
   from {
-    transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, calc(-50% + 12px), 0);
   }
   to {
     transform: translate3d(-50%, 0, 0);
@@ -117,5 +117,5 @@ body {
 }
 
 .animate-scroll-down {
-  animation: scrollDown 30s linear infinite;
+  animation: scrollDown 12s linear infinite;
 }

@@ -8,6 +8,7 @@ import SpeedDial from "./components/SpeedDial";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://hugoaracena.site"),
   title: "Hugo Aracena | Frontend Software Engineer",
   description:
     "Ingeniero en informática y desarrollador Frontend especializado en crear aplicaciones web modernas, escalables. Experiencia en React, Next.js y ecosistemas Web3.",
