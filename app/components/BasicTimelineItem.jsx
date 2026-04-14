@@ -14,7 +14,10 @@ export default function BasicTimeLineItem({
       <time className="mb-1 text-sm font-normal leading-none text-indigo-400">
         {`${startDate} - ${endDate}`}
       </time>
-      <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+      <p
+        style={{ textWrap: "pretty" }}
+        className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+      >
         {description}
       </p>
       {file && (
